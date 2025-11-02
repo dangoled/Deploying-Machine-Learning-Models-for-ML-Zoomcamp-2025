@@ -1,9 +1,11 @@
 [project]
 name = "deploying-machine-learning-models-for-ml-zoomcamp-2025"
 version = "0.1.0"
-description = "Add your description here"
+description = "Homework 5"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.120.4",
     "scikit-learn==1.6.1",
+    "uvicorn>=0.38.0",
 ]
