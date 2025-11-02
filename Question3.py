@@ -17,4 +17,4 @@ def predict_single(customer):
     return float(result)
 
 result = predict_single(record)
-print(f'Predicted probability of converting this customer: {result:.3f}')
+print(f'Probability of conversion: {result:.3f}')
